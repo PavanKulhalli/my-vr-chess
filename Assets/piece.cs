@@ -29,7 +29,7 @@ public class piece : MonoBehaviour {
         if (lift)
             if (gameObject.transform.position.y < dest)
             {
-                gameObject.transform.Translate(Vector3.up * speed * Time.deltaTime);
+                //gameObject.transform.Translate(Vector3.up * speed * Time.deltaTime);
             }
             else
             {
@@ -38,7 +38,7 @@ public class piece : MonoBehaviour {
         if (fall)
             if (gameObject.transform.position.y > dest)
             {
-                gameObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
+                //gameObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
             }
             else
             {
